@@ -15,9 +15,11 @@ int main(void)
 		LED0=0;
 		LED1=1;
 		delay_ms(300);
+		printf("led on\n");
 		LED0=1;
 		LED1=0;
 		delay_ms(300);
+		printf("led off\n");
 	}	 
 }
 
